@@ -5,7 +5,7 @@ WORKDIR /opt/hsqldb
 # Create dirs
 RUN mkdir -p /opt/liquibase &&\
   mkdir -p /opt/jdbc_drivers &&\
-  mkdir -p /home/rundir
+  mkdir -p /home/rundir &&\
   mkdir /scripts
 
 # Add liquibase
