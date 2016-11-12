@@ -19,7 +19,7 @@ RUN tar -xzf liquibase-core-bin.tar.gz &&\
 WORKDIR /
 
 # Add HSQLDB driver
-ENV DRIVER_VERSION 2.3.4
+ENV DRIVER_VERSION 2.3.3
 ENV DRIVER_JAR hsqldb-${DRIVER_VERSION}.jar
 ADD http://central.maven.org/maven2/org/hsqldb/hsqldb/${DRIVER_VERSION}/${DRIVER_JAR} /opt/jdbc_drivers/${DRIVER_JAR}
 RUN chmod 644 /opt/jdbc_drivers/${DRIVER_JAR}
