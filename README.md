@@ -1,4 +1,4 @@
-Base layer for Liquibase update
+Base layer for Liquibase update 
 ==================================
 
 This image is created as base layer. To use it, derive an image from it and add the root change log file to as /changelogs/changelog with your preferred file extension.
