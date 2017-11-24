@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/yonadev/hsqldb-liquibase-update.svg)](https://hub.docker.com/r/yonadev/hsqldb-liquibase-update/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/yonadev/hsqldb-liquibase-update.svg)](https://hub.docker.com/r/yonadev/hsqldb-liquibase-update/)
+[![Docker Automated build](https://img.shields.io/docker/automated/yonadev/hsqldb-liquibase-update.svg)](https://hub.docker.com/r/yonadev/hsqldb-liquibase-update/)
+
 Base layer for Liquibase update
 ==================================
 
